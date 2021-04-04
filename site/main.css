@@ -1,0 +1,138 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+
+.container {
+    display: grid;
+    margin: 0 auto;
+}
+
+header{
+    background: #368FC1;
+    padding: 20px 0;
+}
+
+.bar {
+    display: inline;
+}
+
+.bar nav {
+    display: inline;
+}
+
+.bar p {
+    display: inline;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 0 0 15px;
+}
+
+nav {
+    position: absolute;
+    vertical-align:middle;
+    right: 50px;
+}
+
+
+nav li {
+    display: inline;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+}
+
+nav img {
+    max-width:6%;    
+}
+
+.translate {
+    padding-left: 30px;
+}
+
+/*main*/
+/*
+body {
+    background: url(./images/matrix-circle.svg); 
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+*/
+
+
+
+.image-background {
+    background: url(./images/Data2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 569px;
+}
+
+.caixa {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.name-description{
+    color: #FDF8F8;
+    font-weight: bold;
+    font-size: 50px;
+    position:absolute;
+    top: 240px;
+}
+
+
+.title-description{
+    color: #ffffff;
+    font-size: 25px;
+    position:absolute;
+    top:290px;
+    left: 130px;
+}
+
+
+
+.main-content {
+    display: grid;
+    grid-template-rows: 25%;
+}
+
+.main-about {
+    font-size: 16px;
+    background: #E5E5E5;
+    padding: 20px 0 200px 0;
+}
+
+.main-about img{
+    display: inline;
+    width: 300px;
+    border-radius: 200px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.main-about h1 {
+    font-weight: medium;
+    font-size: 40px;
+    margin: 0 400px;
+}
+
+.main-about p {
+    margin: 20px 300px 0 30px;
+}
+
+
+
+.main-projects {
+    background: #368FC1;
+    margin: 30px auto;
+    padding: 20px 0;
+}
+
+
+
+
+
